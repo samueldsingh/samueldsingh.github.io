@@ -12,4 +12,4 @@ The steps followed to create the interactive dashboard are:
 6. Finally we can make the excel interactive by inserting slicers for years, products and regions.
 7. By selecting slicer --> Report Connections we can connect the year, sales, retailers and sales method.
 
-The dashboard can be accessed <a href="https://docs.google.com/spreadsheets/d/1pLMQQ8G074lXioHr74Q62ODVol-BbxjO/edit?usp=share_link&ouid=104973142209078855674&rtpof=true&sd=true" target="_blank">here</a>.
+The dashboard can be downloaded from <a href="https://docs.google.com/spreadsheets/d/1pLMQQ8G074lXioHr74Q62ODVol-BbxjO/edit?usp=share_link&ouid=104973142209078855674&rtpof=true&sd=true" target="_blank">here</a>.
