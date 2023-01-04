@@ -12,7 +12,7 @@ Features of the Gantt Chart:
 - Diamond shape represents the end date of the project
 - Blocked tasks are represented by orange tasks
 
-![Screenshot](images/thumbs/GC.png)
+![Screenshot](https://github.com/samueldsingh/samueldsingh.github.io/blob/f90c81307e2fac56b62f08c519c16ca215eac7d2/images/thumbs/GC.png)
 
 Access the template here at my <a href="https://www.etsy.com/in-en/listing/1384860117/project-management-using-gantt-chart?click_key=ce90a5b24819b222cb730d5e899e013fd508915e%3A1384860117&click_sum=9b60db21&ref=shop_home_active_1&clickFromShopCard=1" target="_blank">etsy store</a>.
 
