@@ -12,6 +12,8 @@ Features of the Gantt Chart:
 - Diamond shape represents the end date of the project
 - Blocked tasks are represented by orange tasks
 
+Access the template here at my [etsy store](https://www.etsy.com/in-en/your/shops/ExcelBySamuel/onboarding/listings/1384860117):
+
 Below are some of the functions used to improve the dynamics of the template:
 1. Function used to create the Calender:
 =IF(MONTH(D3-WEEKDAY((D3),2)+1)<MONTH(D3), (D3-28-DAY(D3)+7)- WEEKDAY((D3-DAY(D3)+7),2)+1, (D3-DAY(D3)+7)- WEEKDAY((D3-DAY(D3)+7),2)+1)
