@@ -13,26 +13,26 @@ Features of the Gantt Chart:
 - Blocked tasks are represented by orange tasks
 
 Below are some of the functions used to improve the dynamics of the template:
-Function used to create the Calender:
+1. Function used to create the Calender:
 =IF(MONTH(D3-WEEKDAY((D3),2)+1)<MONTH(D3), (D3-28-DAY(D3)+7)- WEEKDAY((D3-DAY(D3)+7),2)+1, (D3-DAY(D3)+7)- WEEKDAY((D3-DAY(D3)+7),2)+1)
 
-Function used to create the "Number of working days" column:
+2. Function used to create the "Number of working days" column:
 =IF(F6="","",NETWORKDAYS(E6,F6))
 
-Function used to create Diamond shapes to represent end date:
+3. Function used to create Diamond shapes to represent end date:
 =IF(K$4=($F6-WEEKDAY($F6,2)),"u","")
 
-Function used to create the blue line to represent today's date:
+4. Function used to create the blue line to represent today's date:
 =K$4=(TODAY()-WEEKDAY(TODAY(), 2) + 1)
 
-Function used to create the colored boxes representing the start and end date:
+5. Function used to create the colored boxes representing the start and end date:
 =AND(K$4>=$E6-(WEEKDAY($E6, 2)+1),K$4<=$F6)
 
-Function used to show percentage complete:
+6. Function used to show percentage complete:
 =AND($I6>0, K$4 <= ($E6+($F6-$E6)*$I6)-WEEKDAY(($E6+($F6-$E6)*$I6),2)+1, K$4 >= $E6-WEEKDAY($E6, 2)+1)
 
-Function used to create the to show completed tasks using golden color:
+7. Function used to create the to show completed tasks using golden color:
 =AND($H6="Complete", K$4 = $F6 - WEEKDAY($F6,2) + 1)
 
-Function used to create the to show blocked tasks using orange color:
+8. Function used to create the to show blocked tasks using orange color:
 =AND($H6="Blocked",$I6>0,K$4<=($E6+($F6-$E6)*$I6)-WEEKDAY(($E6+($F6-$E6)*$I6),2)+1,K$4>=$E6-WEEKDAY($E6,2)+1)
