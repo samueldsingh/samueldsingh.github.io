@@ -29,10 +29,10 @@ Below are some of the functions used to improve the dynamics of the template:
 =AND(K$4>=$E6-(WEEKDAY($E6, 2)+1),K$4<=$F6)
 
 6. Function used to show percentage complete:
-=AND($I6>0, K$4 <= ($E6+($F6-$E6)*$I6)-WEEKDAY(($E6+($F6-$E6)*$I6),2)+1, K$4 >= $E6-WEEKDAY($E6, 2)+1)
+=AND($I6>0, K$4 <= ($E6+($F6-$E6)×$I6)-WEEKDAY(($E6+($F6-$E6)×$I6),2)+1, K$4 >= $E6-WEEKDAY($E6, 2)+1)
 
 7. Function used to create the to show completed tasks using golden color:
 =AND($H6="Complete", K$4 = $F6 - WEEKDAY($F6,2) + 1)
 
 8. Function used to create the to show blocked tasks using orange color:
-=AND($H6="Blocked",$I6>0,K$4<=($E6+($F6-$E6)*$I6)-WEEKDAY(($E6+($F6-$E6)*$I6),2)+1,K$4>=$E6-WEEKDAY($E6,2)+1)
+=AND($H6="Blocked",$I6>0,K$4<=($E6+($F6-$E6)×$I6)-WEEKDAY(($E6+($F6-$E6)×$I6),2)+1,K$4>=$E6-WEEKDAY($E6,2)+1)
